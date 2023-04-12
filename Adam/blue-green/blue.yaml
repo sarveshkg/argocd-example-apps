@@ -16,7 +16,7 @@ spec:
         - image: adamtravis/rollouts:blue
           name: blue-deployment
           ports:
-          - containerPort: 8080
+          - containerPort: 8091
             name: http
             protocol: TCP
 ---
