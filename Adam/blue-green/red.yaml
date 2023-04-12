@@ -16,7 +16,7 @@ spec:
         - image: adamtravis/rollouts:red
           name: red-deployment
           ports:
-          - containerPort: 8080
+          - containerPort: 8093
             name: http
             protocol: TCP
 ---
