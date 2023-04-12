@@ -16,7 +16,7 @@ spec:
         - image: adamtravis/rollouts:green
           name: green-deployment
           ports:
-          - containerPort: 8080
+          - containerPort: 8092
             name: http
             protocol: TCP
 ---
